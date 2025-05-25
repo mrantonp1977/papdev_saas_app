@@ -20,7 +20,7 @@ const Cta = () => {
         width={362}
         height={232}
       />
-      <button className='btn-primary bg-orange-600'>
+      <button className='btn-primary'>
         <Image 
           src={'/icons/plus.svg'}
           alt='plus'
