@@ -15,7 +15,7 @@ const navItems = [
 const NavItems = () => {
   const pathname = usePathname();
   return (
-    <nav className='flex items-center gap-4'>
+    <nav className='flex items-center text-lg font-bold gap-4'>
       {navItems.map(({ label, href }) => (
         <Link href={href} key={label} className={cn(pathname === href && "text-orange-600 font-bold")}>
           {label}
