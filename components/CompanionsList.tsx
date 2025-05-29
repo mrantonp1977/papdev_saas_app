@@ -22,7 +22,7 @@ const CompanionsList = ({
   classNames,
 }: CompanionsListProps) => {
   return (
-    <article className={cn('companion-list', classNames)}>
+    <article className={cn('companion-list bg-amber-100', classNames)}>
       <h2 className="font-bold text-3xl">{title}</h2>
       <Table>
         <TableHeader>

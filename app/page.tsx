@@ -30,6 +30,9 @@ const Page = async () => {
         />
         <CTA />
       </section>
+      <footer>
+        <p className='flex items-center justify-center'>�� 2025 PapDev SaaS. All rights reserved.</p>
+      </footer>
     </main>
   );
 };
